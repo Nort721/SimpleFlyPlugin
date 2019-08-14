@@ -1,2 +1,2 @@
 # SimpleFlyPlugin
-old but good fly plugin, out dated code
+old but good fly plugin
