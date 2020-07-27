@@ -1,10 +1,10 @@
-main: me.Nort721.Fly.SimpleFlyPlugin
-version: 1.14
+main: me.nort721.simpleflyplugin.SimpleFlyPlugin
+version: 1.18
 name: SimpleFlyPlugin
 author: Nort721
 description: the pefect fly plugin
 
 commands:
   fly:
-    description: enable/disable fly - main command
+    description: main command
     permission: cmd.fly.use
