@@ -6,28 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="483c2b51-9fc6-4f8c-bdf7-36604904cf2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/SimpleFlyPlugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Vault.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lombok.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/spigot_1_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/spigot_1_8_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/Nort721/simpleflyplugin/CommandsManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/Nort721/simpleflyplugin/ConfigUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/Nort721/simpleflyplugin/ProtocolVersion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/Nort721/simpleflyplugin/SimpleFlyPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/Nort721/simpleflyplugin/SoundUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/Nort721/Fly/Events/ChangeFlyModeEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/Nort721/simpleflyplugin/ChangeFlyModeEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/Nort721/Fly/Events/JoinEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/Nort721/simpleflyplugin/PluginListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/Nort721/Fly/SimpleFlyPlugin.java" beforeDir="false" />
-    </list>
+    <list default="true" id="483c2b51-9fc6-4f8c-bdf7-36604904cf2e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -78,10 +57,10 @@
         <option value="$PROJECT_DIR$/src/me/nort721/simpleflyplugin/ProtocolVersion.java" />
         <option value="$PROJECT_DIR$/src/me/nort721/simpleflyplugin/ConfigUtils.java" />
         <option value="$PROJECT_DIR$/src/me/nort721/simpleflyplugin/CommandsManager.java" />
-        <option value="$PROJECT_DIR$/src/me/nort721/simpleflyplugin/SimpleFlyPlugin.java" />
         <option value="$PROJECT_DIR$/src/me/nort721/simpleflyplugin/SoundUtils.java" />
         <option value="$PROJECT_DIR$/src/config.yml" />
         <option value="$PROJECT_DIR$/src/me/nort721/simpleflyplugin/PluginListener.java" />
+        <option value="$PROJECT_DIR$/src/me/nort721/simpleflyplugin/SimpleFlyPlugin.java" />
       </list>
     </option>
   </component>
@@ -99,8 +78,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -117,6 +94,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -163,7 +142,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25226668" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25493333" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -229,16 +208,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugin.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/nort721/simpleflyplugin/plugin.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin.yml" />
+    <entry file="file://$PROJECT_DIR$/src/me/nort721/simpleflyplugin/plugin.yml" />
     <entry file="file://$PROJECT_DIR$/src/plugin.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -263,16 +234,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/nort721/simpleflyplugin/SimpleFlyPlugin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="83" column="13" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -290,20 +251,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/nort721/simpleflyplugin/CommandsManager.java">
+    <entry file="file://$PROJECT_DIR$/src/me/nort721/simpleflyplugin/PluginListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        <state relative-caret-position="269">
+          <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/nort721/simpleflyplugin/PluginListener.java">
+    <entry file="file://$PROJECT_DIR$/src/me/nort721/simpleflyplugin/CommandsManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
+        <state relative-caret-position="170">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/nort721/simpleflyplugin/SimpleFlyPlugin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="79" column="81" selection-start-line="79" selection-start-column="81" selection-end-line="79" selection-end-column="81" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

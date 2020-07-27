@@ -77,8 +77,10 @@ public class SimpleFlyPlugin extends JavaPlugin {
         Bukkit.getServer().getScheduler().runTaskTimer(this, new Runnable() {
             public void run() {
                 for (Player player : Bukkit.getOnlinePlayers()) {
-                    if (player.isFlying() && player.hasPermission("fly.effect.use"))
-                        playParticle(player);
+                    if (player.hasPermission("player.bypass.disabledworlds") || !ConfigUtils.getStringListFromConfig("Disable_worlds").contains(player.getWorld().getName())) {
+                        if (player.isFlying() && player.hasPermission("fly.effect.use"))
+                            playParticle(player);
+                    }
                 }
             }
         }, 10, 2);
