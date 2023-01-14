@@ -29,17 +29,28 @@ public enum ProtocolVersion {
     V1_13_2(404, "v1_13_R3"),
     V1_14(477, "v1_14_R1"),
     V1_14_1(480, "v1_14_R2"),
-    v1_14_2(485, "v1_14_R3"),
-    v1_14_3(490, "v1_14_R4"),
-    v1_14_4(498, "v1_14_R5"),
-    v1_15(573, "v1_15_R1"),
-    v1_15_1(575, "v1_15_R2"),
-    v1_15_2(578, "v1_15_R3"),
-    v1_16(735, "v1_16_R1"),
-    v1_16_1(736, "v1_16_R2"),
-    UNKNOWN(-1, "UNKNOWN");
+    V1_14_2(485, "v1_14_R3"),
+    V1_14_3(490, "v1_14_R4"),
+    V1_14_4(498, "v1_14_R5"),
+    V1_15(573, "v1_15_R1"),
+    V1_15_1(575, "v1_15_R2"),
+    V1_15_2(578, "v1_15_R3"),
+    V1_16(735, "v1_16_R1"),
+    V1_16_1(736, "v1_16_R2"),
+    V1_16_2(737, "v1_16_R3"),
+    V1_16_3(738, "v1_16_R4"),
+    V1_16_4(739, "v1_16_R5"),
+    V1_16_5(740, "v1_16_R6"),
+    V1_17(755, "v1_17_R1"),
+    V1_17_1(756, "v1_17_R2"),
+    V1_18(757, "v1_18_R1"),
+    V1_18_1(758, "v1_18_R2"),
+    V1_18_2(759, "v1_18_R3"),
+    V1_19(760, "v1_19_R1"),
+    V1_19_3(761, "v1_19_R2"),
+    UNKNOWN(999, "UNKNOWN");
 
-    @Getter private static ProtocolVersion gameVersion = fetchGameVersion();
+    @Getter private static final ProtocolVersion gameVersion = fetchGameVersion();
     private int version;
     private String serverVersion;
 
@@ -70,3 +81,4 @@ public enum ProtocolVersion {
         return this.getVersion() >= version.getVersion();
     }
 }
+

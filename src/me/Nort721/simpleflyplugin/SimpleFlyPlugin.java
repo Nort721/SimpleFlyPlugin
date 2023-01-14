@@ -9,13 +9,13 @@ import org.bukkit.entity.Player;
 import org.bukkit.plugin.RegisteredServiceProvider;
 import org.bukkit.plugin.java.JavaPlugin;
 
+@Getter
 public class SimpleFlyPlugin extends JavaPlugin {
 
     static String VERSION = Bukkit.getServer().getClass().getPackage().getName().replace("org.bukkit.craftbukkit", "").replace(".", "");
-
-    @Getter private String consolePrefix;
-    @Getter private boolean useEconomy;
-    @Getter private Economy econ = null;
+    private String consolePrefix;
+    private boolean useEconomy;
+    private Economy econ = null;
 
     static SimpleFlyPlugin getInstance() {
         return SimpleFlyPlugin.getPlugin(SimpleFlyPlugin.class);

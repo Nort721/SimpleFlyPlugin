@@ -36,20 +36,24 @@ public class PluginListener implements Listener {
 	}
 
 	@EventHandler
-	public void onFlyToggle(PlayerToggleFlightEvent e) {
-		if (!e.getPlayer().hasPermission("player.bypass.disabledworlds") && ConfigUtils.getStringListFromConfig("Disable_worlds").contains(e.getPlayer().getWorld().getName())) return;
+	public void onFlyToggle(PlayerToggleFlightEvent event) {
+		Player player = event.getPlayer();
+
+		if (!player.getPlayer().hasPermission("player.bypass.disabledworlds") && ConfigUtils.getStringListFromConfig("Disable_worlds").contains(player.getWorld().getName())) return;
 
 		if (ConfigUtils.getBooleanFromConfig("Sound & Particle effects.play sound when starting fly")) {
-			if (e.isFlying())
-				SoundUtils.playFireWorkSound(e.getPlayer());
+			if (event.isFlying())
+				SoundUtils.playFireWorkSound(player);
 		}
 	}
 
 	@EventHandler
-	public void onWorldChange(PlayerChangedWorldEvent e) {
-		if (!e.getPlayer().hasPermission("player.bypass.disabledworlds") && ConfigUtils.getStringListFromConfig("Disable_worlds").contains(e.getPlayer().getWorld().getName())) {
-			e.getPlayer().setAllowFlight(false);
-			e.getPlayer().setFlying(false);
+	public void onWorldChange(PlayerChangedWorldEvent event) {
+		Player player = event.getPlayer();
+
+		if (!player.hasPermission("player.bypass.disabledworlds") && ConfigUtils.getStringListFromConfig("Disable_worlds").contains(player.getWorld().getName())) {
+			player.setAllowFlight(false);
+			player.setFlying(false);
 		}
 	}
 }
