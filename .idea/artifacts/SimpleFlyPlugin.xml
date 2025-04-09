@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="SimpleFlyPlugin">
-    <output-path>$USER_HOME$/Desktop/Testing server/plugins</output-path>
-    <root id="archive" name="SimpleFlyPlugin.jar">
-      <element id="module-output" name="SimpleFlyPlugin" />
-    </root>
-  </artifact>
-</component>
